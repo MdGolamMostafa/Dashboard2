@@ -1,23 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import Dashboard from "./components/Dashboard"
 
 function App() {
+  
+  const showDate = new Date();
+  const display = showDate.toDateString();
+
+  function formatAMPM(date) {
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var ampm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12;
+    hours = hours ? hours : 12; // the hour '0' should be '12'
+    minutes = minutes < 10 ? '0'+minutes : minutes;
+    var strTime = hours + ':' + minutes + ' ' + ampm;
+    return strTime;
+  }
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      Bismillah Hirrah Manir Rahim
+      <h4>Dashboard 2</h4>
+      <small>{display} {formatAMPM(new Date())}</small>
+      <Dashboard></Dashboard>
     </div>
   );
 }
