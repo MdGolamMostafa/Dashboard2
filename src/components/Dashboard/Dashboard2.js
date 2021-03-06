@@ -26,17 +26,15 @@ const Dashboard2 = () => {
                             <p>FORUM</p>
                         </div>
                     </div>
-                    <div className = 'headerBlock d-block col-md-10 border border-warning'>
-                            <div className = 'header1 col-md-12 border border-warning'>
-                                Bismillah header1
+                    <div className = 'headerBlock  col-md-10 border border-warning'>
+                            <div className = 'header1 col-md-12'>
+                                
                             </div>
-                            <div className = 'header2 col-md-12 border border-warning'>
-                                Bismillah header2
-                            <Lessons/>
+                            <div className = 'header2 col-md-12 '>
+                                <Lessons/>
                             </div>
-                            <div className = 'header3 col-md-12 border border-warning'>
-                                Bismillah header3
-                            <Courses/>
+                            <div className = 'col-md-12'>
+                                <Courses/>
                             </div>
                     </div>
                 </div>

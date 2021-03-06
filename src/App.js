@@ -1,5 +1,4 @@
 import './App.css';
-// import Dashboard from "./components/Dashboard/Dashboard"
 import Dashboard2 from './components/Dashboard/Dashboard2';
 
 function App() {
@@ -17,13 +16,11 @@ function App() {
     var strTime = hours + ':' + minutes + ' ' + ampm;
     return strTime;
   }
- 
+
   return (
     <div  >
-      Bismillah Hirrah Manir Rahim
       <h4>Dashboard 2</h4>
       <small>{display} {formatAMPM(new Date())}</small>
-      {/* <Dashboard></Dashboard> */}
       <Dashboard2/>
     </div>
   );

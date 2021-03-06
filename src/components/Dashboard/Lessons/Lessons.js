@@ -10,10 +10,10 @@ const Lessons = () => {
                     <UpcomingLessons></UpcomingLessons>
                 </div>
                 <div className="tasks col-md-3">
-                    Bismillah Lessons
+                    TASKS TO DO
                 </div>
-                <div className="leaderboard col-md-3">
-                    Bismillah Lessons
+                <div className=" leaderboard col-md-3">
+                    LEADERBOARD
                 </div>
             </div>
         </>

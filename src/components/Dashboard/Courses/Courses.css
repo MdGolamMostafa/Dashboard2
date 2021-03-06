@@ -1,12 +1,26 @@
 .header3{
     height: 264px;
     margin-bottom: 11px;
-    /* text-align:right; */
     display: block;
 }
 
 .myCourse{
+    width: 659px;
+    height: 322px;
+    margin-right: 15px;
+}
+
+.homeWork{
+    height: 392px;
     width: 322px;
-    height: 222px;
-    margin-right: 65px;
+    border: 1px solid red;
+    margin-left: 18px;
+}
+
+.graph{
+    height: 192px;
+    width: 322px;
+    padding-left: 60px;
+    margin-left: 4px;
+    margin-top: 4px;
 }

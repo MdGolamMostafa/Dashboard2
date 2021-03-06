@@ -1,0 +1,26 @@
+.bothSubjects{
+    margin-left: 4px;
+    height: 140px;
+    width: 742px;
+}
+
+.math{
+    margin-right: 24px;
+}
+
+.right-side{
+    text-align:right;
+    margin-bottom: 23px;
+}
+
+.bottom-side{
+    border: 1px solid red;
+    height : 25px;
+}
+.top-side{
+    border: 1px solid rgb(76, 0, 255);
+    height : 35px;
+    width : 45px;
+    position: relative;
+    bottom: 16px;
+}

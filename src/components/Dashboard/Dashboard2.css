@@ -1,4 +1,3 @@
-
 .dashboardBody{
     border: 1px solid red;
 }
@@ -27,20 +26,15 @@ p{
 .headerBlock{
     height: 724px;
     padding: 12px;
-    /* text-align:right; */
     display: block;
 }
 .header1{
     height: 74px;
     padding: 12px;
     margin-bottom: 11px;
-    /* text-align:right; */
     display: block;
 }
 .header2{
-    height: 264px;
-    
-    margin-bottom: 11px;
-    /* text-align:right; */
+    height: 225px;
     display: block;
 }
