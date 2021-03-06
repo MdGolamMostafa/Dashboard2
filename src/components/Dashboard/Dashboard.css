@@ -15,21 +15,18 @@
 }
 
 .logo{
-    padding: 10% 15%;
+    padding: 5px 15px;
     margin-bottom: 72px;
     text-align:left;
     margin-left: 8px;
 }
 
 .box{
-    padding: 10% 10%;
-    margin-bottom: 15px;
-    text-align:bottom;
+    padding:5px 10px;
+    margin-bottom: 10px;
+    text-align:center \ bottom;
 }
 
-p{
-    font-size: 9px;
-}
 
 .empty{
     margin-bottom: 43%;
@@ -39,4 +36,13 @@ p{
     grid-column: 2/span 5;
     text-align:right;
     margin-bottom: 4%;
+}
+.article-3{
+    grid-row: 2/span 5;
+    text-align:center;
+    
+}
+.lessons-box{
+    margin-bottom:2px;
+    padding:4px;
 }

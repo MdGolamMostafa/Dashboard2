@@ -1,0 +1,46 @@
+
+.dashboardBody{
+    border: 1px solid red;
+}
+.first-column{
+    min-height: 724px;
+    padding: 12px;
+}
+
+.logo{
+    border: 1px solid red;
+    margin-left:4px;
+    padding:11px;
+    text-align: left;
+    margin-bottom: 96px;
+}
+.navbar1{
+    border: 1px solid red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p{
+    padding-top:5px ;
+    font-size: 15px;
+}
+.headerBlock{
+    height: 724px;
+    padding: 12px;
+    /* text-align:right; */
+    display: block;
+}
+.header1{
+    height: 74px;
+    padding: 12px;
+    margin-bottom: 11px;
+    /* text-align:right; */
+    display: block;
+}
+.header2{
+    height: 264px;
+    
+    margin-bottom: 11px;
+    /* text-align:right; */
+    display: block;
+}

@@ -20,8 +20,11 @@ const Dashboard = () => {
                 <article className="article article-2">
                     <h3>article-2</h3>
                 </article>
-                <article className="article article-3">
-                    <h3>article-3</h3>
+                <article className=" article article-3">
+                    <p>UPCOMING LESSONS </p>
+                    <div className="lessons-box border border-danger">1</div>
+                    <div className="lessons-box border border-danger">1</div>
+                    <div className="lessons-box border border-danger">1</div>
                 </article>
                 <article className="article article-4">
                     <h3>article-4</h3>
